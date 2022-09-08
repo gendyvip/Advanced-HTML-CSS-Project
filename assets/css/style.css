@@ -2,31 +2,49 @@ body{
     margin: 0px;
     font-family: Tajawal;
     color: #151428;
+    display: grid;
+}
+.navbrand{
+    display:flex;
 }
 nav{
     background-color: #151428;
     position:relative;
-    border-bottom:solid 1px #ffb500 ;
     display: flex;
 }
 #logo{
 width: 70px;
-padding-top: 5px;
+margin-top: 12px;
+margin-left: 15px;
+padding-right: 20px;
+}
+.WS{
+    margin-top: 31px;
+    margin-left: -18px;
+    font-size: 25px;
+}
+.WS a{
+    text-decoration: none;
+    color:#fff;
+}
+.WS a:hover{
+
+    color:#ffb500;
 }
 nav ul{
-    margin: 0px;
+    margin-right:auto;
     padding: 20px;
 }
 nav ul li{
     list-style:none ;
     display: inline;
-    padding: 10px;
-    font-size: 19px;
+    padding: 30px;
+    font-size: 17px;
 }
 .whiteicon{
     color: #fff;
 }
-nav ul li a{
+ul li a{
     text-decoration: none;
     color: #fff;
 }
@@ -83,8 +101,7 @@ input:focus,textarea:focus{
 footer{
     background-color: #151428;
     padding: 20px 20px;
-    position:sticky;
+    position:relative;
     text-align: center;
     color: #fff;
-    border-top: #ffb500 1px solid;
 }

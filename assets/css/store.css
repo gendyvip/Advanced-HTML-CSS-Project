@@ -1,16 +1,7 @@
-.container{
+#grocery,#mensfashion,#womenfashon,#Laptops,#Phones{
     display: flex;
 }
-.flexcontents{
-    display: flex;
-}
-.flexprice{
-    margin-left: 50px;
-}
-.flexpriceetc{
-    margin-left: 200px;
-}
-#grocery h1,#mensfashion h1{
+.categoryheader{
     text-align: center;
     margin-top: 8px;
     background-color: #4e1bd2;
@@ -19,19 +10,47 @@
     border: 0px;
     border-radius:4px ;
     align-self: center;
-    margin-left: 25%;
-    width: 50%;
+    font-size: 23px;
+    margin: 0 auto;
+    width: 15%;
     border: solid #fff 1px;
 }
-#grocery {
-    margin-right: auto;
+
+.carditem{
+    margin-top: 15px;
+    border: #4e1bd2 1px solid;
+    border-radius: 4px;
+    padding:7px;
+    min-width:fit-content;
+    width: 300px;
+    text-align: -webkit-center;
 }
-#mensfashion {
-    margin-left:auto;
+figure img:hover{
+    transform: scaleX(-1);
 }
-hr{
-    border-color: rgb(241, 240, 240);
+img + figcaption{
+    border-bottom: #ccc 1px solid;
+    font-weight: bold ;
+    font-size: 18px;
+    width: max-content;
+}
+.priceb{
+   font-weight: bold;
+   text-align: left;
+}
+.pricew{
+    padding-top: 8px;
+    text-align: left !important; 
 }
 .was{
     text-decoration: line-through;
+    font-weight: bold;
+
+}
+.secondcontent span,.firstcontent span,.thirdcontent span{
+    font-weight: bold;
+    margin-right: -15px;
+}
+.secondcontent{
+    margin:auto ;
 }
